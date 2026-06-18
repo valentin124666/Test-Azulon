@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19871bc0ee304af489dee7c184618076, type: 3}
+  m_Name: ItemSpeedPotionData
+  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
+  _id: 9165a57a40fc4a82a8dbe90e42b0b112
+  _name: Azure Essence
+  _description: Restores magical energy.
+  _icon: {fileID: 21300000, guid: 575c772ba607da84b9009dc19b5e033b, type: 3}
+  _interactionType: 0
+  _consumableProperties:
+  - {fileID: 11400000, guid: 2073e475ffba22347909f4c4024ced71, type: 2}
+  _equippableProperty: []
+  _itemEffects:
+  - {fileID: 11400000, guid: d99c09aeef6143543a021832f6c51d2b, type: 2}
+  _equipSlotProperty: {fileID: 0}

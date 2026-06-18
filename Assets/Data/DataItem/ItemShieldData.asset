@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19871bc0ee304af489dee7c184618076, type: 3}
+  m_Name: ItemShieldData
+  m_EditorClassIdentifier: Assembly-CSharp::Items.ItemData
+  _id: 8991cdaf167f41939e91d37e2a750787
+  _name: Oakguard Shield
+  _description: Sturdy protection against enemy strikes.
+  _icon: {fileID: 21300000, guid: a9cc8e8cb707cbd46b07a2263652116e, type: 3}
+  _interactionType: 1
+  _consumableProperties: []
+  _equippableProperty:
+  - {fileID: 11400000, guid: 18431d8baa63c314c97cdda4a9d1b404, type: 2}
+  - {fileID: 11400000, guid: 315fcd41ddf23434c85177614a70e69d, type: 2}
+  _itemEffects:
+  - {fileID: 11400000, guid: 4e53f0375fe673c488eb2624fd83d7f2, type: 2}
+  _equipSlotProperty: {fileID: 11400000, guid: 3cf6c68f58b34ec45bd9a22c269bd993, type: 2}
